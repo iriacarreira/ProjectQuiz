@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjectQuiz</string>
+    <string name="project_name">Project X</string>
+    <string name="project_description">Project X is located in London, United Kingdom. Project X is a new space and operations facility for new creators. Before you start to work on-site at Project X we want to make sure you are ready for this.</string>
+<string name="go_button">Take Test</string>
+    <string name="name_q">1.Please provide your full name:</string>
+    <string name="company_q">2.Please provide the name of your employer:</string>
+    <string name="next_question">Next</string>
+    <string name="question_3">3.Have you work on a construction site before?</string>
+    <string name="question_4">4.Do you have a CSCS card?</string>
+    <string name="question_5">5.What type of CSCS card you have?</string>
+    <string name="question_6">6.Have you been inducted?</string>
+    <string name="question_7">7.Have you have the IFF training?</string>
+    <string name="name_of_user">Employee Name</string>
+    <string name="name_of_company">Company Name</string>
+    <string name="positive">Yes</string>
+    <string name="negative">No</string>
+    <string name="option1">Blue</string>
+    <string name="option2">Yellow</string>
+    <string name="option3">Red</string>
+    <string name="option4">Green</string>
+    <string name="Finish">Finish</string>
+</resources>

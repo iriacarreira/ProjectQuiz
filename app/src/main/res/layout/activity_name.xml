@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/question"
+            android:text="@string/name_q" />
+
+        <EditText
+            android:id="@+id/name_field"
+            style="@style/inputText"
+            android:hint="@string/name_of_user"
+            android:inputType="textCapWords" />
+
+        <TextView
+            style="@style/question"
+            android:text="@string/company_q" />
+
+        <EditText
+            android:id="@+id/company_field"
+            style="@style/inputText"
+            android:hint="@string/name_of_company"
+            android:inputType="textCapWords" />
+
+
+        <TextView
+            style="@style/question"
+            android:text="@string/question_3" />
+
+        <RadioGroup
+            style="@style/groupRadio">
+
+            <RadioButton
+                android:id="@+id/experience_yes"
+                style="@style/buttonRadio"
+                android:text="@string/positive" />
+
+            <RadioButton
+                android:id="@+id/experience_no"
+                style="@style/buttonRadio"
+                android:text="@string/negative" />
+
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/question"
+            android:text="@string/question_4" />
+
+        <RadioGroup
+            style="@style/groupRadio">
+
+            <RadioButton
+                android:id="@+id/cscs_yes"
+                style="@style/buttonRadio"
+                android:text="@string/positive" />
+
+            <RadioButton
+                android:id="@+id/cscs_no"
+                style="@style/buttonRadio"
+                android:text="@string/negative" />
+
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/question"
+            android:text="@string/question_5" />
+
+        <RadioGroup
+            android:id="@+id/cscs_type"
+            style="@style/groupRadio">
+
+            <RadioButton
+                android:id="@+id/answer_blue"
+                style="@style/buttonRadio2"
+                android:text="@string/option1" />
+
+            <RadioButton
+                android:id="@+id/answer_yellow"
+                style="@style/buttonRadio2"
+                android:text="@string/option2" />
+
+            <RadioButton
+                android:id="@+id/answer_red"
+                style="@style/buttonRadio2"
+                android:text="@string/option3"/>
+
+            <RadioButton
+                android:id="@+id/answer_green"
+                style="@style/buttonRadio2"
+                android:text="@string/option4"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/question"
+            android:text="@string/question_6" />
+
+        <RadioGroup
+            style="@style/groupRadio">
+
+            <RadioButton
+                android:id="@+id/induction_yes"
+                style="@style/buttonRadio"
+                android:text="@string/positive" />
+
+            <RadioButton
+                android:id="@+id/induction_no"
+                style="@style/buttonRadio"
+                android:text="@string/negative" />
+
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/question"
+            android:text="@string/question_7" />
+
+        <RadioGroup
+            style="@style/groupRadio">
+
+            <RadioButton
+                android:id="@+id/iff_yes"
+                style="@style/buttonRadio"
+                android:text="@string/positive" />
+
+            <RadioButton
+                android:id="@+id/iff_no"
+                style="@style/buttonRadio"
+                android:text="@string/negative" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/finish"
+            style="@style/button"
+            android:onClick="submitAnswers"
+            android:text="@string/Finish" />
+
+
+    </LinearLayout>
+
+</ScrollView>
